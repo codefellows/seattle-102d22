@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+header, footer {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+section {
+    background-color: gold;
+    text-align: center;
+    border: solid black 1px
+}
+
+#hero {
+    height: 300px;
+    width: 800px;
+    border: solid black 2px;
+}
+
+.other_pictures {
+    border: solid black 1px;
+    width: 400px;
+}
+
+li {
+    border: solid black 1px;
+    display: inline;
+    margin: 150px;
+}
+
+.display_change {
+    /* display: inline; */
+    width: 390px;
+}
+
+.display_change > p{
+    width: 400px;
+}
